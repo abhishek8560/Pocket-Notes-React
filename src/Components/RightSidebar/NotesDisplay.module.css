@@ -1,0 +1,21 @@
+.notesDisplay {
+  height: 65%;
+  background-color: #dae5f5;
+  padding: 20px;
+  overflow: auto;
+}
+.noteItem {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 2px;
+}
+.timeStamp{
+  padding-top: 10px;
+  align-self: end;
+}

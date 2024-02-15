@@ -1,0 +1,39 @@
+.notesInputContainer {
+  display: flex;
+  width: 98.5%;
+  height: 20%;
+  margin: 10px;
+  border: 2px solid grey;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: white;
+}
+.textArea {
+  width: 90vw;
+  height: 100%;
+  font-size: 30px;
+  border: none;
+  resize: none;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.textArea:focus {
+  outline: none;
+}
+.sendButton {
+  width: 50px;
+  height: 50px;
+  align-self: end;
+  font-size: 40px;
+  display: flex;
+  align-items: end;
+  color: aqua;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  padding-right: 20px;
+  border-radius: 20%;
+}
+.sendButton:hover {
+  color: blue;
+}

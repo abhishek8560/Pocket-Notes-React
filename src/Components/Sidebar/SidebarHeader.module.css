@@ -1,0 +1,11 @@
+.sidebarHeader {
+  height: 12%;
+  display: flex;
+  width: 100%;
+  font-size: 37px;
+  letter-spacing: 3px;
+  align-items: center;
+  justify-content: center;
+  /* border-bottom: 2px solid grey; */
+  background-color: #8eb7f6;
+}

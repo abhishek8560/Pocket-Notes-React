@@ -1,0 +1,35 @@
+.folderInputContainer {
+  display: flex;
+  width: 19%;
+  height: 5%;
+  margin: 10px;
+  border: 3px solid grey;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  padding-right: 0px;
+}
+.folderInputContainer > input {
+  font-size: 25px;
+  padding: 5px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 91%;
+}
+.folderInputContainer > input:focus {
+  outline: none;
+}
+.folderInputContainer > button {
+  font-size: 25px;
+  width: 30px;
+  align-self: end;
+  border: none;
+  background-color: white;
+  color: aqua;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.folderInputContainer > button:hover {
+  color: blue;
+}

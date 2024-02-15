@@ -1,0 +1,54 @@
+.welcomeMessageContainer {
+  background-color: #dae5f5;
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  padding-top: 170px;
+  align-items: center;
+}
+.image {
+  height: 300px;
+  width: 600px;
+}
+.welcomeMessageContainer > h1 {
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+.welcomeMessageContainer > p {
+  font-size: 22px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: rgb(62, 62, 62);
+}
+.welcomeMessageContainer > h2 {
+  padding: 50px 0px 20px 0px;
+  letter-spacing: 2px;
+}
+.icons {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icons > * {
+  font-size: 50px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.icons > * > * {
+  color: rgb(53, 53, 53);
+}
+.icons > * > *:hover {
+  color: black;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+.email:hover {
+  color: black;
+  border-bottom: 2px solid black;
+}
+.email {
+  cursor: pointer;
+  padding-bottom: 1px;
+}
